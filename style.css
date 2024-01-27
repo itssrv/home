@@ -158,7 +158,7 @@ blockquote {
     border: 3px solid #f1f1f1;   
 }    */
 
-input {
+.footer input {
     width: 20%;
     padding: 10px;
     margin: 10px;
