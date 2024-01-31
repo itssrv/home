@@ -115,3 +115,20 @@ function reset() {
     computerScore.innerHTML = "The computer score is: 0";
     tieText.innerHTML = "Tie rounds: 0";
 }
+
+// Dark Mode
+let num=true;
+function mode(){
+    if(num==true){
+        document.body.style.background = '#474747';
+        document.body.style.color = 'white';
+        document.getElementById("mode").innerHTML = "Light Mode";
+        num=false;
+    }
+    else{
+        document.body.style.background = 'white';
+        document.body.style.color = 'black';
+        document.getElementById("mode").innerHTML = "Dark Mode";
+        num = true;
+    }
+}
