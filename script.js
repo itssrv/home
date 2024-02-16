@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let secretNumber = Math.floor(Math.random() * 100) + 1;
 let attempts = 0;
 
@@ -29,3 +30,5 @@ function mode(){
         num = true;
     }
 }
+=======
+>>>>>>> main
