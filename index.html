@@ -79,18 +79,12 @@
 			<p><i>"What if changing the world was just about being here, by showing up no matter how many times we get told we don’t belong..."</i></p>
 
 			<img src="./images/skull.webp" alt="skullhead">
-			<h4 style="background-color: lightgray; padding: 2px;">Rock / Paper / Scissors</h4>
+			<h4 style="background-color: lightgray; padding: 2px;">Guess the Number</h4><br>
 			<div class="game">
-				<div id="button-container">
-					<button id="rock">Rock</button>
-					<button id="paper">Paper</button>
-					<button id="scissors">Scissors</button>
-				</div>
-				<div id="results">
-					<p id="player-score">Your score is: 0</p>
-					<p id="computer-score">The computer score is: 0</p>
-					<p id="result-tie">Tie rounds: 0</p>
-				</div>
+				<h1>Guess a number between 1 and 100</h1><br>
+				<input type="number" id="guessInput">
+				<button onclick="checkGuess()">Submit</button><br>
+				<center><p id="result"></p></center>
 				<script src="script.js"></script>
 			</div>
 
